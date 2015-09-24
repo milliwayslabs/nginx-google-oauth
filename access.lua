@@ -145,7 +145,7 @@ else
 
   -- If no whitelist or blacklist, match on domain
   if not whitelist and not blacklist and domain then
-    if oauth_domain ~= domain then
+    if not string.find(" " .. domain .. " ", " " .. oauth_domain .. " ") then
       if debug then
         ngx.log(ngx.ERR, "DEBUG: "..email.." not in "..domain)
       end
