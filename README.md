@@ -9,6 +9,9 @@ You can copy `access.lua` to your nginx configurations, or clone the
 repository. Your installation of nginx must already be built with Lua
 support, and you will need the ``json`` and ``luasec`` modules as well.
 
+On Ubuntu 14.04 LTS, these prerequisites are satisfied by the packages
+``nginx-extras``, ``lua-json``, and ``lua-sec``.
+
 ### Ubuntu
 
 You will need to install the following packages.
