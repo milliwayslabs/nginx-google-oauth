@@ -82,8 +82,8 @@ variables are:
 
 Visit https://console.developers.google.com. If you're signed in to multiple
 Google accounts, be sure to switch to the one which you want to host the OAuth
-credentials (usually your company's Apps domain). This should match
-``$ngo_domain`` (e.g. "yourcompany.com").
+credentials (usually your company's Apps domain). This should match a domain
+in a space-separated list ``$ngo_domain`` (e.g. "yourcompany.com").
 
 From the dashboard, create a new project. After selecting that project, you
 should see an "APIs & Auth" section in the left-hand navigation. Within that
